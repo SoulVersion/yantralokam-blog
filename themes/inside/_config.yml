@@ -97,6 +97,7 @@ profile:
 menu:
   Home: /
   About: /about
+  Search: /search
    #Links: /links
   # Github: https://github.com/username
 
@@ -180,18 +181,18 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  # fab: true
+  fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
-  # page: true
+  page: true
 
   # Local search
-  # adapter:
-  #   range:
-  #     - post
-  #     - page
-  #   per_page: 20
-  #   limit: 10000
+  adapter:
+    range:
+      - post
+      - page
+    per_page: 20
+    limit: 10000
 
   # Custom search
   # adapter:
