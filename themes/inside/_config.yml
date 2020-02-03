@@ -36,9 +36,6 @@ appearance:
     logo:
     # Sidebar menu font, fallback to `base`
     menu: 'Baloo Bhaijaan'
-        home:   /
-        about:  /about
-        search: /search
     # Font for:
     # - percentage on the fab button
     # - month text on archives page
@@ -94,7 +91,7 @@ profile:
   # You can set Avatar URL directly
   # avatar:
 
-  bio: Tech Enthusiast
+  bio: Awesome guy.
 
 # Sidebar navigation links
 menu:
@@ -130,7 +127,7 @@ sns:
 # Sidebar footer copyright info
 footer:
   # Set to false to hide.
-  # copyright: '&copy; 2019 • <a href="">Rijo Thomas</a>'
+  # copyright: '&copy; 2019 • <a href="">John Doe</a>'
 
   # Set to false to hide Hexo link.
   # powered: false
@@ -183,7 +180,7 @@ category:
 # Search
 search:
   # Display a quick search button in fab
-  #fab: true
+  # fab: true
 
   # Render a standalone searh page which can be configured in sidebar menu such as `Search: /search`
   # page: true
